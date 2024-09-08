@@ -1,0 +1,29 @@
+
+
+.footer-top-section{
+
+    margin: 0 310px 0 304px;
+        padding:0  280px 0 280px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        align-items: center;
+        
+}
+.footer-social-section{
+     margin: 0 304px 0 304px;
+        padding:50px  250px 0 250px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+.footer-social-section img{
+    width: 20px;
+}
+
+.footer-trademark{
+ padding:0  280px 50px 280px;
+ text-align: center;
+ font-size: 12px;
+
+}

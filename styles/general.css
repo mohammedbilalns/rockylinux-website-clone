@@ -8,3 +8,8 @@ font-family: "Red Hat Display";
 p{
    font-weight: 450px;
 }
+
+a{
+   text-decoration: none;
+    color: inherit;
+}

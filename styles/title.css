@@ -56,8 +56,7 @@
 
 .digitalpublicgoods{
     margin-top: 300px;
-    text-decoration: none;
-    color: inherit;
+    
 }
 .digitalpublicgoods img{
     padding-top: 50px;
@@ -184,3 +183,5 @@
     height: 40px;
     object-fit: contain;
 }
+
+
