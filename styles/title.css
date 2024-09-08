@@ -47,8 +47,11 @@
 }
 .download-iso-button{
     background-color: #10B981;
-    color: white;
+    color: var(--main-color);
 
+}
+.download-iso-button:hover{
+    background-color: #20cb92;
 }
 .migrate-button{
     background-color: #F6F6F7;
