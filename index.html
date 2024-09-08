@@ -1,69 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocky Linux</title>
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/general.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/title.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    </head>
+    
+    <body>
 
     <header>
         <nav>
-            <div class="nav-left"> 
+            <div class="nav-left">
                 <img src="./static/general/logo.webp" alt="">
             </div>
             <div class="nav-center">
-               <a>News</a>
-               <div class="dropdown">
-                <button><p>About </p> <img src="./static/general/down-arrow.svg" alt=""> </button>
-                <div class="dropdown-menu">
-                    <div class="dropdown-link"><p>About Rocky Linux</p></div>
-                    <div class="dropdown-link"><p>Community Charter</p></div>
-                    <div class="dropdown-link"><p>Project Wiki</p> </div>
-                    <div class="dropdown-link"><p>Sponsers</p></div>
-                    <div class="dropdown-link"><p>Partners</p></div>
+                <a>News</a>
+                <div class="dropdown">
+                    <button>
+                        <p>About </p> <img src="./static/general/down-arrow.svg" alt="">
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-link">
+                            <p>About Rocky Linux</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Community Charter</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Project Wiki</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Sponsers</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Partners</p>
+                        </div>
 
+                    </div>
                 </div>
-               </div>
-               <div class="dropdown">
-                <button><p>Community</p> <img src="./static/general/down-arrow.svg" alt=""></button>
-                <div class="dropdown-menu">
-                    <div class="dropdown-link"><p>Code of Conduct</p></div>
-                    <div class="dropdown-link"><p>Forums</p></div>
-                    <div class="dropdown-link"><p>Mailing List</p></div>
-                    <div class="dropdown-link"><p>Mattermost</p></div>
-                    <div class="dropdown-link"><p>IRC</p></div>
-                    <div class="dropdown-link"><p>Calendar</p></div>
+                <div class="dropdown">
+                    <button>
+                        <p>Community</p> <img src="./static/general/down-arrow.svg" alt="">
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-link">
+                            <p>Code of Conduct</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Forums</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Mailing List</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Mattermost</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>IRC</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Calendar</p>
+                        </div>
 
-                </div>   
-            </div>
-               <div class="dropdown">
-                <button><p> Help</p> <img src="./static/general/down-arrow.svg" alt=""></button>
-                <div class="dropdown-menu">
-                    <div class="dropdown-link"><p>Documentation</p></div>
-                    <div class="dropdown-link"><p>Submit Bug</p></div>
-                    <div class="dropdown-link"><p>Commercial Support</p></div>
-                    
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button>
+                        <p> Help</p> <img src="./static/general/down-arrow.svg" alt="">
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-link">
+                            <p>Documentation</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Submit Bug</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Commercial Support</p>
+                        </div>
 
-                </div>   
-            </div>
-               <div class="dropdown">
-                <button><p>Contribute</p> <img src="./static/general/down-arrow.svg" alt=""></button>
-                <div class="dropdown-menu">
-                    <div class="dropdown-link"><p>Contibuting Guide</p></div>
-                    <div class="dropdown-link"><p>Shop</p></div>
-                    <div class="dropdown-link"><p>Donate</p></div>
-                </div>   
-            </div>
+
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button>
+                        <p>Contribute</p> <img src="./static/general/down-arrow.svg" alt="">
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-link">
+                            <p>Contibuting Guide</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Shop</p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>Donate</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="nav-right">
                 <button class="theme-toggler-button"><img src="./static/general/theme-toggler.svg" alt=""></button>
-                <button class="download-button"><p>Download</p></button>
+                <button class="download-button">
+                    <p>Download</p>
+                </button>
             </div>
         </nav>
     </header>
-    
+
+    <main>
+        <div class="title-section">
+
+            <div class="banner">
+                <h1>Enterprise Linux, the <span>commmunity way.</span></h1>
+
+                <p>Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible
+                    with Red Hat
+                    Enterprise Linux®. It is under intensive development by the community.</p>
+
+                <div class="buttons-container">
+                    <button class="download-iso-button">Download</button>
+                    <button class="migrate-button">Migrate</button>
+                </div>
+                <a class="digitalpublicgoods" href="#">
+                    <img  src="./static/general/digitalpublicgoods.png" alt="">
+                    <p>A Registered Digital Public Good</p>
+                </a>
+               
+            </div>
+
+            <img class="display-image" src="./static/general/home-hero.webp" alt="">
+        </div>
+
+
+
+        <div class="features-section">
+            <p class="moto">STABLE, PRODUCTION READY LINUX</p>
+            <h2>Rock solid, no matter the use-case.</h2>
+            <p class="moto-description">Rocky Linux rebuilds sources directly from RHEL®, so you can bet your best dollar that you'll have a
+                super stable experience, no matter the use-case.</p>
+                
+            <div class="features-cards-section">
+                <div class="feature-card">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="news-section">
+            <h2>Latest News</h2>
+            <p>We regularly share updates with the community about what's happening. Here's the latest.</p>
+
+            <div class="news-cards-section">
+                <div class="news-card">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="companies-section">
+            <h2>Backed By</h2>
+            <div class="compaines-images-section">
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <footer>
+
+
+    </footer>
+
+
 </body>
+
 </html>
