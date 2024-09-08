@@ -81,20 +81,21 @@
 .moto{
     color: #10B981;
 }
-.features-section h2{
+.features-section h2,.news-section h2{
     font-size: 36px;
 }
 
-.moto-description{
+.moto-description,.news-description{
 
     font-size: 19px;
 }
 
 
-.features-cards-section{
+.features-cards-section,.news-cards-section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
+    column-gap: 45px;
+    row-gap: 45px;
     
     align-items: start;
     text-align: start;
@@ -120,3 +121,37 @@
     font-weight: 450;
 }
 
+
+/* news section */
+
+.news-card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 3px 20px 3px 20px;
+}
+
+.news-card:hover{
+    cursor: pointer;
+}
+
+.news-card-title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.news-card h3{
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.news-date{
+    font-size:14px;
+    padding: 0;
+    margin: 0;
+    color: #71717A;
+}
+.news-card-description{
+    font-size: 15px;
+    line-height: 23px;
+}
