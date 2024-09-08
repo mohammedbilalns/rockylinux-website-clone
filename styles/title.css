@@ -70,16 +70,18 @@
 }
 
 
-.features-section{
+/* features section */
+
+
+.features-top-section{
      margin: 0 304px 0 304px;
-    padding:0  200px 0 200px;
+        padding:0  200px 0 200px;
 }
 
 .moto{
     color: #10B981;
 }
 .features-section h2{
-
     font-size: 36px;
 }
 
@@ -88,4 +90,33 @@
     font-size: 19px;
 }
 
+
+.features-cards-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    
+    align-items: start;
+    text-align: start;
+     margin: 50px 191px 0 191px;
+}
+.feature-card-title-section{
+    display: flex;
+    flex-direction: row;
+}
+.feature-card-title-section p{
+    font-weight: bold;
+    font-size: 16px;
+}
+.feature-card-title-section img{
+    width: 20px;
+    padding-right: 10px;
+    filter: invert(65%) sepia(96%) saturate(2727%) hue-rotate(117deg) brightness(90%) contrast(87%);
+}
+
+.card-description{
+
+    font-size: 16px;
+    font-weight: 450;
+}
 

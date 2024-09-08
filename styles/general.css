@@ -1,4 +1,10 @@
 body{
 font-family: "Red Hat Display";
    margin: 0;
+   word-spacing: 2px;
+   line-height: 32px;
+}
+
+p{
+   font-weight: 450px;
 }
