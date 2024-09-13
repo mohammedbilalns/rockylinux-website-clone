@@ -17,4 +17,6 @@ a{
 
 :root{
    --main-color:white;
+   --secondary-color:#10B981;
+   --secondary-hover-color:#20cb92;
 }

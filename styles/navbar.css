@@ -125,14 +125,16 @@ nav{
 }
 .theme-toggler-button:hover{
     background-color: rgb(249,249,250);
+    cursor: pointer;
 }
 .download-button{
   
     padding: 20px 12px 20px 12px;
-    background-color:#10B981;    
+    background-color:var(--secondary-color);    
 }
 .download-button:hover{
-    background-color: #20cb92;
+    background-color: var(--secondary-hover-color);
+    cursor: pointer;
 }
 .download-button p{
     padding-left: 7px;
